@@ -1,0 +1,1542 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
+* {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+* body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+* body .house {
+  display: flex;
+  flex-direction: column;
+}
+* body .house .home {
+  background-color: #080E2F;
+  height: 100vh;
+  color: white;
+}
+* body .house .home .tophome {
+  display: flex;
+  justify-content: space-between;
+}
+* body .house .home .tophome img {
+  width: 12vw;
+  height: 12vw;
+  padding: 1vw;
+  margin: 1vh 0 0 3vw;
+}
+* body .house .home .tophome .navbar ul {
+  text-align: center;
+  margin: 8vh 9vw 0 0;
+}
+* body .house .home .tophome .navbar ul a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+* body .house .home .tophome .navbar ul a #selected {
+  background-color: white;
+  color: #080E2F;
+}
+* body .house .home .tophome .navbar ul li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  list-style: none;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* body .house .home .tophome .navbar ul a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+* body .house .home .tophome .navbar ul #selected {
+  background-color: white;
+  color: #080E2F;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .home .bothome .grid-container {
+  display: grid;
+  margin: 0 10vw 0 0;
+}
+* body .house .home .bothome .grid-container .header {
+  text-align: center;
+  grid-column: 1;
+  margin: 8vh 0 0 12vw;
+}
+* body .house .home .bothome .grid-container .header #header {
+  font-size: 2vw;
+  font-weight: bold;
+}
+* body .house .home .bothome .grid-container .header #para {
+  font-size: 1.2vw;
+}
+* body .house .home .bothome .grid-container .socials {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  margin: -25vh 0 0 17vw;
+}
+* body .house .home .bothome .grid-container .socials a #github {
+  width: 3vw;
+  height: 3vw;
+}
+* body .house .home .bothome .grid-container .socials a #linkedin {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1.5vw;
+}
+* body .house .home .bothome .grid-container .socials a #twitter {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1vw;
+}
+* body .house .home .bothome .grid-container .socials a #instagram {
+  width: 4.6vw;
+  height: 4.6vw;
+  margin: 0 0 0 0.5vw;
+}
+* body .house .home .bothome .grid-container .socials a #facebook {
+  width: 3vw;
+  height: 3vw;
+  margin: 0 0 0 1vw;
+}
+* body .house .home .bothome .grid-container .photo {
+  grid-column: 2;
+  grid-row: 1/span 3;
+}
+* body .house .home .bothome .grid-container .photo img {
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+  margin-top: -1vh;
+  margin-left: 15vw;
+}
+* body .house .skills {
+  background-color: #146166;
+  height: 110vh;
+  color: white;
+}
+* body .house .skills .topskills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .skills .topskills h1 {
+  text-align: right;
+  font-size: 5vw;
+  margin: 4vh 4vw 0 0;
+}
+* body .house .skills .topskills .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .skills .topskills .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .skills .topskills .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .skills .topskills .navbar ul #selected {
+  background-color: white;
+  color: #146166;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .skills .pageskills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8vh 0 0 0;
+}
+* body .house .skills .pageskills .skillslist {
+  margin-right: 5vw;
+}
+* body .house .skills .pageskills .skillslist .skillscontent {
+  margin: 0 0 0 10vw;
+}
+* body .house .skills .pageskills .skillslist .skillscontent .list {
+  background-color: #080E2F;
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 22vw;
+  height: 22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+* body .house .skills .pageskills .vl {
+  border: 1px solid white;
+  height: 55vh;
+}
+* body .house .skills .pageskills .skillicons .front {
+  margin: 0 0 4vh 0;
+  position: relative;
+  left: -5vw;
+}
+* body .house .skills .pageskills .skillicons .front .skilltype {
+  margin: 0 0 0 10.8vw;
+}
+* body .house .skills .pageskills .skillicons .front .skilltype p {
+  font-size: 1.4vw;
+}
+* body .house .skills .pageskills .skillicons .front .icons {
+  display: flex;
+  gap: 15px;
+  margin: 0 5vw 0 10vw;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock {
+  background-color: #080E2F;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #html img {
+  width: 3.8vw;
+  height: 7.6vh;
+  margin: 3.5vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #html P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 0.5vh 0 3vh 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #css img {
+  width: 3.8vw;
+  height: 7.6vh;
+  margin: 3.5vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #css P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 0.5vh 0 3vh 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #js {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #js img {
+  width: 2.8vw;
+  height: 5.5vh;
+  border-radius: 5px;
+  margin: 4vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #js P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.3vh 0 3vh 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #react img {
+  width: 3vw;
+  height: 5.5vh;
+  margin: 1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #react p {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.2vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #sass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #sass img {
+  width: 3.7vw;
+  height: 4.6vh;
+  margin: 1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #sass p {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.7vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind img {
+  width: 3vw;
+  height: 4vh;
+  margin: 1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind p {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.7vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .back {
+  position: relative;
+  left: -5vw;
+}
+* body .house .skills .pageskills .skillicons .back p {
+  font-size: 1.1vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons {
+  display: flex;
+  gap: 15px;
+  margin: 0 5vw 0 10vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock {
+  background-color: #080E2F;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #python {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #python img {
+  width: 4vw;
+  height: 8vh;
+  margin: -0.5vh 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #python p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: -0.7vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #django {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #django img {
+  width: 4vw;
+  height: 7.5vh;
+  margin: -0.1vh 0.3vw 0 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #django p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: -0.1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs img {
+  width: 2.8vw;
+  height: 6vh;
+  margin: 1vh 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre img {
+  width: 3.5vw;
+  height: 6.3vh;
+  margin: 1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 1vh 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase img {
+  width: 3.5vw;
+  height: 7.5vh;
+  margin: 1vh 0 1.8vh 0.2vw;
+  margin-bottom: 1vh;
+  margin-left: 0.2vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb img {
+  width: 1.5vw;
+  height: 7.3vh;
+  margin: 0.5vw 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
+}
+* body .house .about {
+  background-color: #0E4946;
+  height: 110vh;
+  color: white;
+}
+* body .house .about .abouttop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .about .abouttop h1 {
+  text-align: left;
+  font-size: 5vw;
+  margin: 3.8vh 4vw 0 0;
+}
+* body .house .about .abouttop .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .about .abouttop .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .about .abouttop .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .about .abouttop .navbar ul #selected {
+  background-color: white;
+  color: #0E4946;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .about .infoblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .house .about .infoblock .info {
+  text-align: left;
+  padding-top: 5vh;
+  width: 30%;
+  font-size: 1svw;
+  line-height: 2.5;
+  margin-top: 5vh;
+}
+* body .house .about .infoblock .info .resume {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+}
+* body .house .about .infoblock .info .resume a {
+  text-decoration: none;
+  color: #0E4946;
+  font-size: 2vh;
+  font-weight: bold;
+}
+* body .house .about .infoblock .info .resume a img {
+  width: 1vw;
+  height: 1vw;
+  margin: 1vh 0 0 0;
+}
+* body .house .about .infoblock .info .resume img {
+  width: 2vw;
+  height: 2vw;
+  margin: 0.5vh 0 0 0;
+}
+* body .house .about .coding {
+  width: 30vw;
+  height: 40vh;
+  margin-bottom: 10vh;
+  animation-name: moveInCenter;
+  animation-duration: 2s;
+}
+* body .house .about .coding img {
+  width: 20vw;
+  height: 38vh;
+  border-radius: 50%;
+}
+* body .house .portfolio {
+  background-color: #080E2F;
+  height: 110vh;
+  color: white;
+}
+* body .house .portfolio .portfoliotop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .portfolio .portfoliotop h1 {
+  text-align: right;
+  font-size: 5vw;
+  margin: 4vh 4vw 0 0;
+}
+* body .house .portfolio .portfoliotop .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .portfolio .portfoliotop .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .portfolio .portfoliotop .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .portfolio .portfoliotop .navbar ul #selected {
+  background-color: white;
+  color: #080E2F;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .portfolio .portcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appsheader {
+  font-size: 2.5vh;
+  text-align: left;
+  width: 69.7%;
+  margin-left: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer {
+  display: flex;
+  margin: 5vh 0 0 0;
+  gap: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  height: 60vh;
+  width: 25vw;
+  position: absolute;
+  cursor: pointer;
+  background-color: #080E2F;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover img {
+  width: 14vw;
+  height: 14vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover p {
+  color: white;
+  font-size: 3.5vh;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin-top: 8vh;
+  color: #B7BCD6;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
+  text-align: center;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 4.5vw 3vh 0;
+  gap: 2vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies h3 {
+  margin: 0 0 1vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles {
+  margin: -1.5vh 0 2vh 0;
+  display: flex;
+  gap: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.3vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.6vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express img {
+  margin: 1vh 0 0 0;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.2vw;
+  height: 2.2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
+  font-size: 0.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments {
+  margin: 1vh 0 0 0;
+  font-size: 0.9vw;
+  line-height: 80%;
+  text-align: left;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments h3 {
+  font-size: 1vw;
+  margin: -1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments p {
+  font-size: 0.9vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links {
+  display: flex;
+  margin: 0 0 5vh 5vw;
+  gap: 6vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto p {
+  margin: 0 0 0 0;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover {
+  position: absolute;
+  border-radius: 10px;
+  background-color: #080E2F;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover img {
+  width: 17vw;
+  height: 5.5vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin-top: 1vh;
+  color: #B7BCD6;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2content .app2description {
+  text-align: center;
+  margin: 6vh 0 0 0;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 5vw 4vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies h3 {
+  margin: 0 0 3vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles {
+  margin: -1.5vh 0 2vh 0;
+  display: flex;
+  gap: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.3vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.6vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express img {
+  margin: 1vh 0 0 0;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.2vw;
+  height: 2.2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase p {
+  font-size: 0.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments {
+  margin: 2vh 0 0 0;
+  font-size: 0.9vw;
+  line-height: 80%;
+  text-align: left;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments h3 {
+  font-size: 1vw;
+  margin-bottom: -0.1vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments p {
+  font-size: 0.9vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links {
+  display: flex;
+  gap: 6vw;
+  margin: 0 0 7vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .github {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3cover {
+  background-color: #080E2F;
+  border-radius: 5px;
+  position: absolute;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3cover img {
+  width: 17vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin: 0 0 0 0;
+  color: #B7BCD6;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .app3description {
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  margin: 3vh 1.35vw 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies h3 {
+  margin: 0 0 2vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles {
+  display: flex;
+  gap: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma img {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma p {
+  font-size: 0.6vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix img {
+  margin: 1vh 0 0 0;
+  width: 2vw;
+  height: 2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design img {
+  margin: 1.5vh 0 0 0;
+  width: 1.7vw;
+  height: 1.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design p {
+  font-size: 0.7vw;
+  margin-bottom: 1.5vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .accomplishments {
+  line-height: 95%;
+  margin: 5vh 0 0 0;
+  font-size: 0.9vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links {
+  display: flex;
+  gap: 6vw;
+  margin: 3vh 0 0 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* body .house .blog {
+  background-color: #146166;
+  height: 100vh;
+  color: #FFFFFF;
+}
+* body .house .blog .blogtop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .blog .blogtop .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .blog .blogtop .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .blog .blogtop .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .blog .blogtop .navbar ul li #selected {
+  background-color: white;
+  color: #146166;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .blog .blogtop h1 {
+  font-size: 5vw;
+  margin: 4.1vh 4vw 0 0;
+}
+* body .house .blog .blogcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh 0 0 0;
+  gap: 100px;
+}
+* body .house .blog .blogcontainer .blogcircles {
+  border: #080E2F 1px solid;
+  background-color: #080E2F;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+}
+* body .house .blog .blogcontainer .blogcircles a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5vw;
+  width: 100%;
+  color: #FFFFFF;
+}
+* body .house .blog .blogcontainer .blogcircles a input {
+  background-color: #080E2F;
+  border: none;
+  color: #FFFFFF;
+  margin: 0 0 0 3.5vw;
+}
+* body .house .experience {
+  background-color: #0E4946;
+  height: 120vh;
+  color: white;
+}
+* body .house .experience .experiencetop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .experience .experiencetop .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .experience .experiencetop .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .experience .experiencetop .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .experience .experiencetop .navbar ul #selected {
+  background-color: white;
+  color: #0E4946;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .experience .experiencetop h1 {
+  text-align: right;
+  font-size: 5vw;
+  margin: 4.1vh 4vw 0 0;
+}
+* body .house .experience .experiencecontainer {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 54vh 0 0;
+}
+* body .house .experience .experiencecontainer .places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh 0 0 0;
+}
+* body .house .experience .experiencecontainer .places .courdevs {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -0.5vh 0 3vh 0;
+}
+* body .house .experience .experiencecontainer .places .courdevs img {
+  width: 7vw;
+  height: 7vw;
+}
+* body .house .experience .experiencecontainer .places .courdevs h3 {
+  font-size: 2.5vh;
+  margin-top: -0.005vh;
+}
+* body .house .experience .experiencecontainer .places .courdevs p {
+  margin-top: -0.8vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .r1rcm {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5vh 0 0 0;
+}
+* body .house .experience .experiencecontainer .places .r1rcm img {
+  width: 5vw;
+  height: 4vw;
+}
+* body .house .experience .experiencecontainer .places .r1rcm h3 {
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+}
+* body .house .experience .experiencecontainer .places .r1rcm p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .slea {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5.5vh 0 0 0;
+}
+* body .house .experience .experiencecontainer .places .slea img {
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .experience .experiencecontainer .places .slea h3 {
+  font-size: 2.5vh;
+  margin-top: 1vh;
+}
+* body .house .experience .experiencecontainer .places .slea p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .vl2 {
+  border-left: 2px solid #FFFFFF;
+  height: 75vh;
+  margin: 0 2vw 2vh 2vw;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops h3 {
+  margin-left: 2.3vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description {
+  margin: 7.5vh 0 0 0;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description h3 {
+  margin-left: 2.2vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription {
+  margin-top: 6vh;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription h3 {
+  margin-left: 2.35vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul {
+  list-style: none;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* body .house .contact {
+  background-color: #080E2F;
+  height: 100vh;
+  color: white;
+}
+* body .house .contact .contacttop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+* body .house .contact .contacttop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 0;
+}
+* body .house .contact .contacttop .navbar ul {
+  text-align: center;
+  margin: 8vh 0 0 3vw;
+}
+* body .house .contact .contacttop .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1vw;
+  font-weight: bold;
+}
+* body .house .contact .contacttop .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .contact .contacttop .navbar ul #selected {
+  background-color: white;
+  color: #080E2F;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house .contact .contacttop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 0;
+}
+* body .house .contact .contactcontainer form {
+  display: flex;
+  gap: 7vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0 0 40vh;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .name p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .name input {
+  width: 24vw;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .email p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .email input {
+  width: 24vw;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 5vh 0 0 2vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #github {
+  margin: 0 1vw 0 0;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #github img {
+  width: 2.8vw;
+  height: 2.8vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #linkedin {
+  margin: 0 1vw 0 0;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #linkedin img {
+  width: 3.7vw;
+  height: 3.7vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #twitter {
+  margin: 0 0.5vw 0 -0.4vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #twitter img {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #instagram {
+  margin: 0 0.9vw 0 -0.01vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #instagram img {
+  width: 4vw;
+  height: 4vw;
+}
+* body .house .contact .contactcontainer form .nameemaildiv .socials #facebook img {
+  width: 2.9vw;
+  height: 2.9vw;
+}
+* body .house .contact .contactcontainer form .messageandsubmitdiv {
+  margin: 10vh 0 0 1vw;
+}
+* body .house .contact .contactcontainer form .messageandsubmitdiv .message p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer form .messageandsubmitdiv .message input {
+  width: 24vw;
+  height: 23vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+* body .house .contact .contactcontainer form .messageandsubmitdiv .submit {
+  margin: 6vh 0 0 0;
+}
+* body .house .contact .contactcontainer form .messageandsubmitdiv .submit button {
+  width: 100%;
+  cursor: pointer;
+  height: 5vh;
+  background-color: #080E2F;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.2vw;
+}
+* body .house .contact footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 18vh 7vw 0 0;
+}
+* body .house .contact footer small {
+  display: flex;
+  justify-content: center;
+  gap: 0.7vw;
+}
+* body .house .contact footer small img {
+  opacity: 0.5;
+  width: 1.8vw;
+  height: 1.8vw;
+  margin: 0.5vh 0 0 0;
+}
+* body .house .contact footer small .smallprint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+* body .house .contact footer small .smallprint p {
+  opacity: 0.5;
+}
+* body .house .contact footer small .smallprint a {
+  color: #3b66bb;
+}
+* body .house .contact footer small .smallprint span #phone {
+  margin: 1vh 0 0 0;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInCenter {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(0px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInCenter2 {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(0px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 0.6;
+    transform: translate(0);
+  }
+}
+@keyframes moveInSmallLeft {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.top {
+  animation-name: moveInTop;
+  animation-duration: 2s;
+}
+
+.center {
+  animation-name: moveInCenter;
+  animation-duration: 2s;
+}
+
+.left {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+.smallleft {
+  animation-name: moveInSmallLeft;
+  animation-duration: 2s;
+}
+
+.right {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+.rightone {
+  animation-name: moveInRight;
+  animation-duration: 500ms;
+}
+
+.righttwo {
+  animation-name: moveInRight;
+  animation-duration: 800ms;
+}
+
+.rightthree {
+  animation-name: moveInRight;
+  animation-duration: 1000ms;
+}
+
+.rightfour {
+  animation-name: moveInRight;
+  animation-duration: 1300ms;
+}
+
+.rightfive {
+  animation-name: moveInRight;
+  animation-duration: 1500ms;
+}
+
+.rightsix {
+  animation-name: moveInRight;
+  animation-duration: 2000ms;
+}/*# sourceMappingURL=style.css.map */
