@@ -1239,38 +1239,41 @@ $footerblues: #6287cf;
                 }
                 .blogcontainer {
                     display: flex;
+                    // background-color: yellow;
                     // scroll-behavior: smooth;
                     justify-content: center;
-                    align-items: center;
+                    // align-items: center;
                     margin: 20vh 0 0 0;
                     gap: 100px;
                     // border and scroll
-                    // border: 1px solid white;
-
+                    border: 1px solid white;
                     .arrow {
                         cursor: pointer;
                     }
-                    .blogcircles {
-                        border: $mainblue 1px solid;
-                        background-color: $mainblue;
-                        border-radius: 50%;
-                        width: 20vw;
-                        height: 20vw;
+                    .outline {
                         display: flex;
-                        a {
+                        .blogcircles {
+                            border: $mainblue 1px solid;
+                            background-color: $mainblue;
+                            border-radius: 50%;
+                            width: 20vw;
+                            height: 20vw;
                             display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            text-decoration: none;
-                            font-size: 1.5vw;
-                            width: 100%;
-                            color: $skillswhite;
-                            input {
-                                background-color: $mainblue;
-                                border: none;
+                            a {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                text-decoration: none;
+                                font-size: 1.5vw;
+                                width: 100%;
                                 color: $skillswhite;
-                                margin: 0 0 0 3.5vw;
+                                input {
+                                    background-color: $mainblue;
+                                    border: none;
+                                    color: $skillswhite;
+                                    margin: 0 0 0 3.5vw;
+                                }
                             }
                         }
                     }
