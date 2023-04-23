@@ -1036,6 +1036,9 @@
   margin: 20vh 0 0 0;
   gap: 100px;
 }
+* body .house .blog .blogcontainer .arrow {
+  cursor: pointer;
+}
 * body .house .blog .blogcontainer .blogcircles {
   border: #080E2F 1px solid;
   background-color: #080E2F;
