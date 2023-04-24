@@ -1032,15 +1032,24 @@
 * body .house .blog .blogcontainer {
   display: flex;
   justify-content: center;
-  margin: 20vh 0 0 0;
+  align-items: center;
+  margin: 20vh 0 0 10vw;
   gap: 100px;
-  border: 1px solid white;
+  width: 80%;
 }
 * body .house .blog .blogcontainer .arrow {
   cursor: pointer;
+  opacity: 0.4;
+}
+* body .house .blog .blogcontainer .arrow:hover {
+  opacity: 1;
+  transition: all 0.5s;
 }
 * body .house .blog .blogcontainer .outline {
   display: flex;
+  gap: 3vw;
+  overflow: hidden;
+  position: relative;
 }
 * body .house .blog .blogcontainer .outline .blogcircles {
   border: #080E2F 1px solid;

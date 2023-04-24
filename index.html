@@ -646,9 +646,9 @@
                 </div>
 
                 <!-- BLOG CONTAINER -->
-                <div class="blogcontainer">
+                <section class="blogcontainer">
                     <!-- The SideScroll Arrow -->
-                    <div class="arrow">
+                    <div class="arrow" id="scrollthrough">
                         <img src="/img/arrows/SideScroll.png" alt="arrow">
                     </div>
                     <!-- The outline for the X Scroll -->
@@ -676,6 +676,10 @@
                                 <input value=`${Date.now()}`></input>
                             </a>
                         </div>
+                    </div>
+                    <!-- The SideScroll Arrow -->
+                    <div class="arrow" id="scrollback">
+                        <img src="/img/arrows/SideScrollBack.png" alt="arrow">
                     </div>
             </div>
         </div>
@@ -761,8 +765,11 @@
         </div>
     </div>
 
-    <!-- JS -->
+    <!-- SCROLL ANIMATIONS JS -->
     <script src="scroll.js"></script>
+
+    <!-- BLOG SCROLL JS -->
+    <script src="/blogscroll.js"></script>
     
 </body>
 </html>
