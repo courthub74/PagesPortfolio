@@ -19,5 +19,14 @@ blogCircles.forEach((item, i) => {
     let containerWidth = containerBlogDimensions.width;
 
     // add event listeners
-    
-})
+
+    // Left Scroll
+    scrollThrough[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    });
+
+    // Right Scroll
+    scrollBack[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    });
+});

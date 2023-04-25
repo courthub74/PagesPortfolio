@@ -1031,6 +1031,7 @@
 }
 * body .house .blog .blogcontainer {
   display: flex;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   margin: 20vh 0 0 10vw;
@@ -1050,6 +1051,7 @@
   gap: 3vw;
   overflow: hidden;
   position: relative;
+  width: 80%;
 }
 * body .house .blog .blogcontainer .outline .blogcircles {
   border: #080E2F 1px solid;
