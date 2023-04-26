@@ -1,0 +1,85 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+
+// MAIN BODY
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $mainblue;
+    color: $skillswhite;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: left;
+    .container {
+        width: 60%;
+        .header {
+            text-align: left;
+            h1 {
+                font-size: 2.5vw;
+                font-family: 'Inter', sans-serif;
+            }
+            hr {
+                border: 2px solid white;
+                width: 50vw;
+            }
+        }
+        .description {
+            display: flex;
+            flex-direction: row;
+            margin: 3vw 0 0 0;
+            .descrips {
+                h3 {
+                    font-size: 1.5vw;
+                    font-family: 'Inter', sans-serif;
+                }
+                p {
+                    display: flex;
+                    flex-direction: row;
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+            .socials {
+                display: flex;
+                flex-direction: row;
+                margin: 0 0 0 17vw;
+                img {
+                    width: 2vw;
+                    height: 2vw;
+                }
+                #share {
+                    margin: -.25vh 0 0 0;
+                }
+            }
+        }
+        .content {
+            font-size: 1vw;
+            font-family: 'Inter', sans-serif;
+        }
+        .backbutton {
+            // set link and arrow
+            .arrow {
+                display: flex;
+                flex-direction: row;
+                img {
+                    width: 2vw;
+                    height: 2vw;
+                }
+                a {
+                    text-decoration: none;
+                    font-family: 'Julius Sans One', sans-serif;
+                    font-size: 1.3vw;
+                    margin: .5vh 0 0 0;
+                }
+            }
+        }
+        img {
+            width: 10vw;
+            height: 10vw;
+        }
+    }
+}

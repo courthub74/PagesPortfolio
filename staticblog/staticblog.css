@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #080E2F;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+* .container {
+  width: 60%;
+}
+* .container .header {
+  text-align: left;
+}
+* .container .header h1 {
+  font-size: 2.5vw;
+  font-family: "Inter", sans-serif;
+}
+* .container .header hr {
+  border: 2px solid white;
+  width: 50vw;
+}
+* .container .description {
+  display: flex;
+  flex-direction: row;
+  margin: 3vw 0 0 0;
+}
+* .container .description .descrips h3 {
+  font-size: 1.5vw;
+  font-family: "Inter", sans-serif;
+}
+* .container .description .descrips p {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+}
+* .container .description .socials {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 17vw;
+}
+* .container .description .socials img {
+  width: 2vw;
+  height: 2vw;
+}
+* .container .description .socials #share {
+  margin: -0.25vh 0 0 0;
+}
+* .container .content {
+  font-size: 1vw;
+  font-family: "Inter", sans-serif;
+}
+* .container .backbutton .arrow {
+  display: flex;
+  flex-direction: row;
+}
+* .container .backbutton .arrow img {
+  width: 2vw;
+  height: 2vw;
+}
+* .container .backbutton .arrow a {
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1.3vw;
+  margin: 0.5vh 0 0 0;
+}
+* .container img {
+  width: 10vw;
+  height: 10vw;
+}/*# sourceMappingURL=staticblog.css.map */
