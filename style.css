@@ -1031,7 +1031,6 @@
 }
 * body .house .blog .blogcontainer {
   display: flex;
-  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   margin: 20vh 0 0 10vw;

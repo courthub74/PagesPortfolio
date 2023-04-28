@@ -1239,7 +1239,7 @@ $footerblues: #6287cf;
                 }
                 .blogcontainer {
                     display: flex;
-                    box-sizing: border-box;
+                    // box-sizing: border-box;
                     // background-color: yellow;
                     // scroll-behavior: smooth;
                     justify-content: center;
@@ -1249,6 +1249,7 @@ $footerblues: #6287cf;
                     // border and scroll
                     // border: 1px solid white;
                     width: 80%;
+                    // overflow-x: scroll;
                     .arrow {
                         cursor: pointer;
                         opacity: .4;
