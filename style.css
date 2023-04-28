@@ -110,8 +110,8 @@
 }
 * body .house .home .bothome .grid-container .photo img {
   border-radius: 50%;
-  width: 25vw;
-  height: 25vw;
+  width: 27vw;
+  height: 27vw;
   margin-top: -1vh;
   margin-left: 15vw;
 }
@@ -177,6 +177,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-shadow: 5px 5px 8px black;
 }
 * body .house .skills .pageskills .vl {
   border: 1px solid white;
@@ -203,6 +204,7 @@
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
+  box-shadow: 5px 5px 8px black;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
   display: flex;
@@ -324,6 +326,7 @@
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
+  box-shadow: 5px 5px 8px black;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #python {
   display: flex;
@@ -1033,7 +1036,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20vh 0 0 10vw;
+  margin: 10vh 0 0 10vw;
   gap: 100px;
   width: 80%;
 }
@@ -1049,7 +1052,7 @@
   display: flex;
   gap: 3vw;
   overflow: hidden;
-  position: relative;
+  padding: 5vh;
   width: 80%;
 }
 * body .house .blog .blogcontainer .outline .blogcircles {
@@ -1058,6 +1061,7 @@
   border-radius: 50%;
   width: 20vw;
   height: 20vw;
+  box-shadow: 5px 5px 8px black;
   display: flex;
 }
 * body .house .blog .blogcontainer .outline .blogcircles a {
@@ -1074,7 +1078,7 @@
   background-color: #080E2F;
   border: none;
   color: #FFFFFF;
-  margin: 0 0 0 3.5vw;
+  margin: 0 0 0 6vw;
 }
 * body .house .experience {
   background-color: #0E4946;

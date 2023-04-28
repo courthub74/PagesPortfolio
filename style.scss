@@ -155,8 +155,8 @@ $footerblues: #6287cf;
                                 // animation-duration: 1s;
                                 img {
                                     border-radius: 50%;
-                                    width: 25vw;
-                                    height: 25vw;
+                                    width: 27vw;
+                                    height: 27vw;
                                     margin-top: -1vh;
                                     margin-left: 15vw;
                                 }
@@ -240,6 +240,7 @@ $footerblues: #6287cf;
                                     align-items: center;
                                     justify-content: center;
                                     text-align: center;
+                                    box-shadow: 5px 5px 8px black;
                             }
                         }
                     }
@@ -280,6 +281,7 @@ $footerblues: #6287cf;
                                     width: 7vw;
                                     height: 7vw;
                                     border-radius: 50%;
+                                    box-shadow: 5px 5px 8px black;
                                     // animation-name: moveInRight;
                                     // animation-duration: 2s;
                                     // The actual settings for the icons
@@ -448,6 +450,7 @@ $footerblues: #6287cf;
                                     width: 7vw;
                                     height: 7vw;
                                     border-radius: 50%;
+                                    box-shadow: 5px 5px 8px black;
                                     // The actual settings for the icons
                                     #python {
                                         display: flex;
@@ -1244,7 +1247,7 @@ $footerblues: #6287cf;
                     // scroll-behavior: smooth;
                     justify-content: center;
                     align-items: center;
-                    margin: 20vh 0 0 10vw;
+                    margin: 10vh 0 0 10vw;
                     gap: 100px;
                     // border and scroll
                     // border: 1px solid white;
@@ -1262,8 +1265,9 @@ $footerblues: #6287cf;
                         display: flex;
                         gap: 3vw;
                         overflow: hidden;
-                        position: relative;
+                        // position: relative;
                         // border: 1px solid white;
+                        padding: 5vh;
                         width: 80%;
                         .blogcircles {
                             border: $mainblue 1px solid;
@@ -1271,6 +1275,7 @@ $footerblues: #6287cf;
                             border-radius: 50%;
                             width: 20vw;
                             height: 20vw;
+                            box-shadow: 5px 5px 8px black;
                             display: flex;
                             a {
                                 display: flex;
@@ -1285,7 +1290,7 @@ $footerblues: #6287cf;
                                     background-color: $mainblue;
                                     border: none;
                                     color: $skillswhite;
-                                    margin: 0 0 0 3.5vw;
+                                    margin: 0 0 0 6vw;
                                 }
                             }
                         }
